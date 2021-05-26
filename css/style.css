@@ -215,15 +215,17 @@
 }
 
 .first .portfolio-bg {
-    background-image: url('../img/screenshot-86.png');
+    background-image: url('../img/login2.png');
 }
 
 .second .portfolio-bg {
-    background-image: url('../img/ss-layout87.png');
+    background-image: url('../img/login3.png');
+    background-position-y: -12px;
 }
 
 .third .portfolio-bg {
-    background-image: url('../img/screenshot-layout54.png');
+    background-image: url('../img/login4.png');
+    background-position-y: -10px;
 }
 
 .four .portfolio-bg {
@@ -231,11 +233,11 @@
 }
 
 .five .portfolio-bg {
-    background-image: url('../img/home.png');
+    background-image: url('../img/business-card.png');
 }
 
 .six .portfolio-bg {
-    background-image: url('../img/summer.png');
+    background-image: url('../img/meson.png');
 }
 
 .seven .portfolio-bg {
