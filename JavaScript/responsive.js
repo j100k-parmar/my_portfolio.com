@@ -20,17 +20,24 @@ items.forEach(button => {
     }
 });
 
-function myFunction() {
-    var x = document.getElementById("menu");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-        x.style.width = "60%";
-        x.style.overflow = "none";
-    } else {
-        x.style.display = "block";
-    }
-
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
 }
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+// function myFunction() {
+//     var x = document.getElementById("menu");
+//     if (x.style.display === "block") {
+//         x.style.display = "none";
+//         x.style.width = "60%";
+//         x.style.overflow = "none";
+//     } else {
+//         x.style.display = "block";
+//     }
+
+// }
 
 
 

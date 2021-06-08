@@ -35,13 +35,13 @@
 
                 <li><a href="#experience "><i class="fas fa-medal "></i>  Experience  </a></li>
 
-                <li><a href="#skills"><i class="fas fa-cogs "></i>  Abilities  </a></li>
+                <li><a href="#abilities"><i class="fas fa-cogs "></i>  Abilities  </a></li>
 
 
-                <li><a href="#portfolio"><i class="fas fa-tasks "></i>  Projects  </a></li>
+                <li><a href="#projects"><i class="fas fa-tasks "></i>  Projects  </a></li>
 
 
-                <li><a href="#contact "><i class="fas fa-address-book "></i>  Contact  </a></li>
+                <li><a href="#contact"><i class="fas fa-address-book "></i>  Contact  </a></li>
 
             </ul>
             <div class="social ">
@@ -57,9 +57,23 @@
 
 
     </nav>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#index.html "><i class="fas fa-home "></i>  Home  </a>
+            <a href="#profile"><i class="fas fa-address-card "></i>  About  </a>
+            <a href="#education "><i class="fas fa-user-graduate "></i>  Education  </a>
+            <a href="#experience "><i class="fas fa-medal "></i>  Experience  </a>
+            <a href="#abilities"><i class="fas fa-cogs "></i>  Abilities  </a>
+            <a href="#projects"><i class="fas fa-tasks "></i>  Projects  </a>
+            <a href="#contact"><i class="fas fa-address-book "></i>  Contact  </a>
+        </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <div class="content">
         <div class="banner">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a> -->
             <!-- <img src="img/JP.jpg" alt="myimg" class="banner_img"> -->
 
             <div class="name ">
@@ -232,7 +246,7 @@
 
         </section>
 
-        <section class="portfolio-section" id="Portfolio">
+        <section class="portfolio-section" id="projects">
             <div class="container5">
                 <h2>Projects</h2>
             </div>
@@ -331,19 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="portfolio projects" data-cat="projects">
-                        <div class="portfolio-wrapper seven">
-                            <div class="portfolio-bg"></div>
-                            <div class="label">
-                                <div class="label-text">
-                                    <h4>Project4</h4>
-                                    <span class="text-category"></span>
-                                    <a href="https://j100k-parmar.github.io/meson.com/" class="template-btn" target="_blank">View</a>
-                                </div>
-                                <div class="label-bg"> </div>
-                            </div>
-                        </div>
-                    </div> -->
+
                     <!------------------------------------------------------pricing --------------------------------------------------->
                     <div class="portfolio pricing" data-cat="pricing">
                         <div class="portfolio-wrapper eight">
@@ -470,7 +472,7 @@
         </section>
 
         <section class="contact">
-            <div class="content">
+            <div class="content" id="contact">
                 <h2>Contact Us</h2>
 
             </div>
