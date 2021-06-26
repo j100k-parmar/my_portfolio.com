@@ -500,7 +500,7 @@ p {
 
 @media only screen and (max-width:768px) {
     .contactForm {
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -813,12 +813,12 @@ p {
     position: relative;
     top: 10%;
     width: 100%;
-    margin-left: 101px;
+    text-align: center;
     margin-top: 30px;
 }
 
 .overlay a {
-    padding: 8px;
+    padding-top: 10px;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
@@ -833,8 +833,8 @@ p {
 
 .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 0;
+    right: 0px;
     font-size: 60px;
 }
 
@@ -861,7 +861,7 @@ span {
     span {
         color: gold;
         position: absolute;
-        right: 15px;
+        right: 0;
         top: 0;
         display: block;
     }
