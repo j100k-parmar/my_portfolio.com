@@ -812,7 +812,7 @@ p {
 .overlay-content {
     position: relative;
     top: 10%;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     margin-top: 30px;
 }
@@ -855,6 +855,9 @@ span {
         top: 15px;
         right: 35px;
     }
+    .overlay span {
+        float: none;
+    }
 }
 
 @media only screen and (max-width:428px) {
@@ -864,5 +867,8 @@ span {
         right: 0;
         top: 0;
         display: block;
+    }
+    .portfolio-grid {
+        grid-auto-rows: auto;
     }
 }
