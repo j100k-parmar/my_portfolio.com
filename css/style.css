@@ -49,6 +49,12 @@
     color: white;
 }
 
+@media only screen and (max-width:380px) {
+    .portfolio-tab {
+        margin-left: -30px;
+    }
+}
+
 @media (min-width: 576px) {
     .container3 {
         max-width: 540px;
@@ -229,7 +235,7 @@
 }
 
 .four .portfolio-bg {
-    background-image: url('../img/beauty-a-one.png');
+    background-image: url('../img/project-1.png');
 }
 
 .five .portfolio-bg {
@@ -237,7 +243,7 @@
 }
 
 .six .portfolio-bg {
-    background-image: url('../img/meson.png');
+    background-image: url('../img/project3.png');
 }
 
 .seven .portfolio-bg {

@@ -525,7 +525,7 @@ p {
         text-align: center;
     }
     .post {
-        width: 378px;
+        width: 360px;
     }
 }
 
@@ -812,8 +812,8 @@ p {
 .overlay-content {
     position: relative;
     top: 10%;
-    /* width: 100%; */
-    text-align: center;
+    left: 100px;
+    text-align: left;
     margin-top: 30px;
 }
 
